@@ -86,7 +86,7 @@
 }
 @media screen and (min-width: 768px) {
   .transaction-form {
-    width: 40%;
+    width: 50%;
     padding-right: 43px;
     padding-left: 48px;
   }
@@ -134,7 +134,7 @@
   outline: none;
   padding: 10px;
   margin-bottom: 10px;
-  min-width: 157px;
+  min-width: 250px;
 }
 
 .button {
@@ -164,7 +164,7 @@
   margin: 0px;
   list-style-type: none;
 }
-table-header {
+.table-header {
   display: flex;
   justify-content: flex-start;
   align-items: center;
