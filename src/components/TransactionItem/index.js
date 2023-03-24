@@ -3,7 +3,7 @@ import './index.css'
 
 const TransactionItem = props => {
   const {transactionDetails, deleteTransaction} = props
-  const {id, title, amount, type} = transactionDetails
+  const {title, amount, type, id} = transactionDetails
 
   const onDeleteTransaction = () => {
     deleteTransaction(id)
